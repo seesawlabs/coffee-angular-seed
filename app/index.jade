@@ -1,0 +1,16 @@
+doctype html
+html(lang="en" ng-app="app")
+  head
+    meta(charset="UTF-8")
+    title Timeline
+    link(rel="stylesheet" type="text/css" href="//bootswatch.com/flatly/bootstrap.min.css")
+    link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+    link(rel="stylesheet" type="text/css" href="css/styles.min.css")
+
+  body
+    div(ui-view="")
+    script(src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js")
+    script(src="js/bundle.js")
+
+    script(type="text/javascript" src="http://localhost:35729/livereload.js")

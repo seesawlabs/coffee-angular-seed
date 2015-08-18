@@ -1,0 +1,37 @@
+{
+  "name": "coffee-angular-seed",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "postinstall": "bower install && npm install coffee-script",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seesawlabs/coffee-angular-seed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seesawlabs/coffee-angular-seed/issues"
+  },
+  "homepage": "https://github.com/seesawlabs/coffee-angular-seed",
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-rename": "~1.2.2",
+    "gulp-livereload": "~3.8.0",
+    "gulp-load-plugins": "~1.0.0-rc.1",
+    "gulp-nodemon": "~2.0.3",
+    "gulp-sass": "~2.0.4",
+    "gulp-watch": "~4.3.4",
+    "run-sequence": "~1.1.2",
+    "express": "~4.13.3",
+    "gulp-minify-css": "~1.2.0",
+    "gulp-util": "~3.0.6",
+    "gulp-concat": "~2.6.0",
+    "gulp-jade": "~1.1.0"
+  }
+}

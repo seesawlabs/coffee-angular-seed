@@ -1,0 +1,17 @@
+.container
+  .navbar.navbar-default.navbar-fixed-top
+    .container
+      .navbar-header
+        a(ui-sref="root.home").navbar-brand Razorback
+        //- button.navbar-toggle(type="button" data-toggle="collapse" data-target="#navbar-main")
+        //-   span.icon-bar*3
+        #navbar-main.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li
+              a(ui-sref="root.home")
+                i.fa.fa-user
+
+  div(ui-view="")
+  footer.text-center
+    p Razorback PoC | &copy; 2015
+    
